@@ -5,7 +5,7 @@ const taskSchema = new mongoose.Schema({
   description: String,
   tags: [String],
   skillOffered: String,
-  postedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+ // postedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
   createdAt: { type: Date, default: Date.now }
 });
 
